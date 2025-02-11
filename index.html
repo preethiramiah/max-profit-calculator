@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Max Profit Calculator</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <script src="scripts.js"></script>
+</head>
+
+<body>
+    <header>
+        <h1>
+          Max Profit Calculator
+        </h1>
+    </header>
+    <main>
+        <div class="time-input">
+            <input type="number" id="time" name="time" required placeholder="Enter a unit of time" />
+            <button id="calculate" onclick="calculateMaxProfit()">Find Max Profit</button>
+        </div>
+        <div id="result" class="result">
+            <p id="earnings"></p>
+            <p>Solutions</p>
+            <ol id="solutions" class="output">
+            </ol>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2025 Max Profit Calculator</p>
+    </footer>
+</body>
+
+</html>
